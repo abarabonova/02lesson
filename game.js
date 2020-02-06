@@ -20,6 +20,9 @@ let isSunk = false
 while (isSunk === false) {
   // спрашиваю кооориданы у игрока
   currentShot = Number(prompt("Введите число от 0 до 9:"))
+  if (currentShot >= 9 && currentShot < ) {
+    currentShot = false
+  }
   // увеличиваю кол-во выстрелов
   shots = shots + 1
   // проверяю попал ли человек по кораблю
