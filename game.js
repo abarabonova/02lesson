@@ -20,9 +20,16 @@ let isSunk = false
 while (isSunk === false) {
   // спрашиваю кооориданы у игрока
   currentShot = Number(prompt("Введите число от 0 до 9:"))
-  if (currentShot >= 9 && currentShot < ) {
-    currentShot = false
+  if (currentShot >= 9 || currentShot <= -1 ) {
+    alert("Ошибка")
   }
+  if (currentShot === 5 || currentShot === 6 || currentShot === 7) {
+    alert("Попал!")
+  }
+  else (
+    alert("Промазал!")
+  )
+
   // увеличиваю кол-во выстрелов
   shots = shots + 1
   // проверяю попал ли человек по кораблю
