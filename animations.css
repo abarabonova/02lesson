@@ -4,3 +4,10 @@
   background-color: red;
   transition: all 400ms ease;
 }
+
+@keyframes blinking {
+  50% {
+    opacity: 0%;
+  }
+
+}

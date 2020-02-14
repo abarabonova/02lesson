@@ -9,7 +9,22 @@ function paintItBlack() {
 }
 
 function makeCircle() {
-  box.roundCorner = 100
+  box.style.borderRadius = "50%"
+}
 
+function move() {
+  box.style.transform = "translate(100px)"
+}
+
+function makeBlinking() {
+  box.style.animation = "blinking 1s linear infinite"
+}
+
+function functionName(addText) {
+
+}
+
+function changeColor() {
+  box.style.backgroundColor = document.querySelector("colorInput")
 
 }
