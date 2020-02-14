@@ -25,6 +25,7 @@ function functionName(addText) {
 }
 
 function changeColor() {
-  box.style.backgroundColor = document.querySelector("colorInput")
-
+  let = colorInput = document.querySelector("#colorInput")
+  box.style.backgroundColor = colorInput.value
+  colorInput.valuу = ''
 }
